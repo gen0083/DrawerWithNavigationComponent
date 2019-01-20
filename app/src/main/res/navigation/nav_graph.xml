@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/top_fragment"
+    >
+
+    <fragment
+        android:id="@+id/top_fragment"
+        android:name="jp.gcreate.sample.drawerwithnavigationcomponent.fragments.TopFragment"
+        android:label="fragment_top"
+        tools:layout="@layout/fragment_top"
+        />
+    <fragment
+        android:id="@+id/middle_fragment"
+        android:name="jp.gcreate.sample.drawerwithnavigationcomponent.fragments.MiddleFragment"
+        android:label="fragment_middle"
+        tools:layout="@layout/fragment_middle"
+        />
+    <fragment
+        android:id="@+id/bottom_fragment"
+        android:name="jp.gcreate.sample.drawerwithnavigationcomponent.fragments.BottomFragment"
+        android:label="fragment_bottom"
+        tools:layout="@layout/fragment_bottom"
+        />
+    <fragment
+        android:id="@+id/blue_fragment"
+        android:name="jp.gcreate.sample.drawerwithnavigationcomponent.fragments.BlueFragment"
+        android:label="fragment_blue"
+        tools:layout="@layout/fragment_blue"
+        />
+    <fragment
+        android:id="@+id/red_fragment"
+        android:name="jp.gcreate.sample.drawerwithnavigationcomponent.fragments.RedFragment"
+        android:label="fragment_red"
+        tools:layout="@layout/fragment_red"
+        />
+</navigation>
