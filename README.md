@@ -15,7 +15,7 @@ Run device:
 - Essential Products(PH-1)
 - Android 9.0.0
 
-## Issue 1
+## Issue
 
 When rotate device, multiple drawer menu is checked
 
@@ -28,8 +28,11 @@ I faced this under the following conditions:
 
 if groups have same `checkedBehavior` (like `single` and `single` or `none` and `none`), then this issue dose not occurred. 
 
-## Issue 2
+<https://issuetracker.google.com/issues/123151146>
 
+## ~~Issue 2~~
+
+<del>
 This is feature request.
 
 Please provide a chance to change transition animation using NavigationUI.
@@ -51,4 +54,10 @@ This happened under the following conditions:
 
 This can be avoided to set transition animation only exit side.
 But for now, we cannot do it with NavigationUI.
+</del>
 
+This is intended behavior:
+<https://issuetracker.google.com/issues/110429064>
+<https://issuetracker.google.com/issues/118790649>
+
+If we want to customize animation, overwrite `R.anim.nav_default_enter_anim` etc.
