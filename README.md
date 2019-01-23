@@ -9,6 +9,7 @@ Develop machine:
 
 - Android Studio 3.3
 - Navigation component: 1.0.0-alpha9
+- Android Material Component: 1.1.0-alpha02
 
 Run device:
 
@@ -28,7 +29,11 @@ I faced this under the following conditions:
 
 if groups have same `checkedBehavior` (like `single` and `single` or `none` and `none`), then this issue dose not occurred. 
 
-<https://issuetracker.google.com/issues/123151146>
+~~<https://issuetracker.google.com/issues/123151146>~~
+
+This is not a bug of navigation component. Probably it seems a bug in the NavigationView?
+
+<https://issuetracker.google.com/issues/123260041>
 
 ## ~~Issue 2~~
 
